@@ -3,7 +3,7 @@ pipeline {
    stages {
       stage('clean up') {
             steps {
-                echo 'Hello build dir1'
+                echo 'Hello  new build dir1'
                 deleteDir()
             }
         }
